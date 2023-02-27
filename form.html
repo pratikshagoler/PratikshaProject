@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>form</title> 
+</head> 
+<body> 
+ 
+    <!-- form is used to collect the data from end user .  
+    input is collected from the user it is sent to the server for  processing. 
+    go and store the information in rdbms (data base) 
+    it is aslo used to get the data from the data base .  
+     --> 
+ 
+     <!-- tag used here is <form action=""></form> --> 
+     <!-- <input>  input field where user can enter the details --> 
+     <!-- <label for=""></label> it is used to give label for input filed  --> 
+ 
+ 
+     <form> 
+ 
+       <div> 
+         <label for="fname"> ENTER YOUR FIRST NAME : </label> 
+        <input  
+        type="text"   
+        id="fname"   
+        name="fn"  
+        placeholder="enter your name" 
+        maxlength="10 " 
+        minlength="3" 
+        required 
+        value="chaithanya"> 
+       </div> 
+ 
+        <br> 
+         
+        <div> 
+        <label for="lname">ENTER YOUR LAST NAME : </label> 
+        <input type="text" id="lname" name="ln"> 
+        </div> 
+ 
+        <br> 
+ 
+        <div> 
+            <label for="num"> MOBILE NUMBER :</label> 
+            <input type="number" id="num" name="num1"> 
+        </div> 
+ 
+        <br> 
+ 
+        <div> 
+            <label for="mail">ENTER MAIL ID : </label> 
+            <input type="email" id="mail" name="mailid"> 
+        </div> 
+ 
+        <br> 
+ 
+        <div> 
+            <label for="dob">DATE OF BIRTH</label> 
+            <input type="date" id="dob" name="dob1"> 
+        </div> 
+ 
+        <br> 
+ 
+        <div> 
+            <label for="male"> MALE </label> 
+            <input type="radio" id="male" name="gender"> 
+ 
+            <label for="female"> FEMALE </label> 
+            <input type="radio" id="female" name="gender"> 
+ 
+        </div> 
+         
+        <br> 
+ 
+        <div> 
+        <input type="checkbox" id="check" name="terms" > 
+        <label for="check">i accept the terms and conditions</label> 
+        </div> 
+ 
+        <br> 
+ 
+        <!-- <button> submit </button> 
+        <button> reset</button> --> 
+        <div> 
+           <input type="submit" name="submit" > 
+           <input type="reset" name="reset"> 
+        </div>  
+ 
+     </form> 
+ 
+     
+ 
+     
+</body> 
+</html>
